@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayMessageActivity">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        android:id="@+id/display">
+        <TableRow>
+            <TextView
+                android:text="Name"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/nametvf"
+                android:text=""
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/dobtvf"
+                android:text="Date of Birth"
+                android:padding="3dip" />
+            <TextView
+                android:text=""
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Gender"
+                android:padding="3dip" />
+            <TextView
+                android:text=""
+                android:gravity="right"
+                android:id="@+id/gendertvf"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Marital Status"
+                android:padding="3dip" />
+            <TextView
+                android:text=""
+                android:id="@+id/marital_status"
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Contact number"
+                android:padding="3dip" />
+            <TextView
+                android:text=""
+                android:gravity="right"
+                android:id="@+id/contact"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Addiction"
+                android:padding="3dip" />
+            <TextView
+                android:text=""
+                android:gravity="right"
+                android:id="@+id/addict"
+                android:padding="3dip" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

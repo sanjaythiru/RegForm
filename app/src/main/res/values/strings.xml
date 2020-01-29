@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">RegForm</string>
+    <string-array name="Marital">
+        <item>Married</item>
+        <item>Single</item>
+    </string-array>
 </resources>
